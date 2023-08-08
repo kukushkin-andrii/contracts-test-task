@@ -1,0 +1,9 @@
+Install eslint and set up rules and lint command on precommit hook
+Write tests
+Propper error handling for each API endpoints
+Split model.js file and move each model into separate module
+Add some logger
+Input params validation
+Move constans strings into one place (ex. types of user)
+Update services to have a better way of accessing ORM query options (orm.constructor.Op)
+Refactor GET jobs/unpaid API to GET jobs?status=unpaid as it will overlap with GET jobs/:id
